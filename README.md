@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-Chat DevSpace é um aplicativo que permite aos usuários fazerem login e conversarem dentro de um Chat. 
+Chat Firebase é um aplicativo que permite aos usuários fazerem login e conversarem dentro de um Chat. 
 Ele foi criado utilizando o Realtime Database, uma ferramenta do Firebase, que nos permite guardar e recuperar informações em tempo real.
 
 **Tecnologias:**
