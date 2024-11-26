@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.pedromoura.chatfirebase.presentation.navigation.login.LoginScreen
 
 sealed class Screen(val route: String) {
     object Login: Screen("Login")
@@ -17,7 +18,7 @@ fun NavGraph(startDestination: String = Screen.Login.route) {
 
     NavHost(navController = navController, startDestination = startDestination) {
 
-        composable(Screen.Login.route){ /* chamar a screen de login */}
+        composable(Screen.Login.route){ LoginScreen(navController = navController)}
         composable(Screen.Chat.route){/* chamar a screen de chat */}
 
     }
