@@ -26,8 +26,8 @@ class LoginViewModel(private val context: Context) : ViewModel() {
         viewModelScope.launch {
             with(sharedPreferences.edit()) {
                 putString("USERID", userId)
-                putString("USERNAME", userId)
-                putString("PASSWORD", userId)
+                putString("USERNAME", username)
+                putString("PASSWORD", password)
                 apply()
             }
         }
