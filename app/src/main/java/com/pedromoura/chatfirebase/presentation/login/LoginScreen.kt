@@ -1,4 +1,4 @@
-package com.pedromoura.chatfirebase.presentation.navigation.login
+package com.pedromoura.chatfirebase.presentation.login
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
