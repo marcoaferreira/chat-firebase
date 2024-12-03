@@ -1,4 +1,4 @@
-package com.pedromoura.chatfirebase.presentation.navigation.login
+package com.pedromoura.chatfirebase.presentation.login
 
 import android.content.Context
 import android.content.SharedPreferences
